@@ -1,0 +1,186 @@
+body{
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dark{
+    background-color: #1b1626;
+    color: antiquewhite;
+}
+.headdiv h2{
+    border: 2px solid sandybrown;
+    margin: -0.45%;
+    background-color: coral;
+    color: darkred;
+}
+ul a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 10px;
+    color: coral;
+}
+.menu ul li{
+    list-style-type: none;
+    outline: 3px solid coral;
+    outline-offset: -8px;
+    background: firebrick;
+    padding: 12px;
+    border-radius: 20px;
+}
+.menu ul{
+    margin: 12px 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.menu ul li:hover{
+    background: rgb(228, 202, 202);
+}
+.rhover, .shover{
+    display: none;
+}
+.menu ul li:hover .rhover, .menu ul li:hover .shover{
+    display: block;
+    position: absolute;
+    background: firebrick;
+    margin-top: 14px;
+}
+.menu ul li:hover .rhover ul, .menu ul li:hover .shover ul{
+    display: block;
+    padding: 10px;
+}
+/* HOME PAGE */
+.class p{
+    /* color: black; */
+    text-align: justify;
+    margin: 1em 15em;
+    font-size: 20px;
+}
+.ctaquote{
+    margin-top: 1%;
+    /* margin: 1% 18%;
+    padding: 5em; */
+    background: radial-gradient(rgb(247, 149, 113), antiquewhite,rgb(212, 159, 121), antiquewhite, sandybrown);
+    border-radius: 10em;
+    color: darkred;
+    font-size: larger;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ctaquote h6{
+    text-align: center;
+    font-size: 20px;
+    margin: 0 10px;
+}
+/* .ctaquote a{
+    text-align: center;
+    text-decoration: none;
+    color: navy;
+} */
+#introheading{
+    text-align: center;
+    margin: 0 30%;
+}
+.introclass{
+    /* position: absolute ; */
+    /* color: black; */
+    text-align: justify;
+    margin: 1% 14%;
+    font-size: 18px;
+}
+.introclass a{
+    justify-content: center;
+}
+.introclass img{
+    margin: 1% 30%;
+    width:50%; 
+    border-radius:1em;
+}
+#introid1{
+    width: 80%;
+    margin: 0 15%;
+}
+.introsub{
+    /* position: relative; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:linear-gradient(darkred, coral);
+    color: whitesmoke;
+    border-radius: 0.5em;
+    width: 40%; 
+    /* height: 2%; */
+    margin: 0 23%;
+    padding: 1% 2%;
+}
+.introsub h5{
+    margin-left: 1em;
+}
+.introsub button{
+    background:linear-gradient(antiquewhite, darkred, coral);
+    color: sandybrown;
+    border-radius: 1em;
+    padding: 1%;
+    margin-left: 50%;
+    text-decoration: none;
+}
+.footnote{
+    margin:0 37em; 
+    margin-top:5em; 
+    text-align:center; 
+    text-decoration: none
+}
+.footnote a{
+    text-decoration: none; 
+    /* color:black; */
+}
+.faclass{
+    margin: 10em 30rem;
+}
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 20em;
+    text-decoration: none;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin{
+    background: #007bb5;
+    color: white;
+}
+.contactclass{
+    /* color: black; */
+    text-align: justify;
+    margin: 1em 10em;
+    font-size: 20px;
+}
+.aboutclass{
+    /* color: black; */
+    text-align: justify;
+    margin: 1em 14em;
+    font-size: 18px;
+}
+.about{
+    /* color: black; */
+    text-align: justify;
+    margin: 1em 14em;
+    font-size: 18px;
+    display: flex;
+}
+.about #left{
+    text-decoration: solid;
+    font: oblique;
+}
+.about img{
+    width:15em;
+    height: 12em;
+    border-radius: 5em;
+    margin-left: 2em;
+}
